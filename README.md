@@ -33,3 +33,29 @@ The list is incomplete and requires reordering
   - Slideshow ANSI
   - Better yet, animation on ANSI
   - Karaoke style lyrics text scroll
+ 
+```Tex
+Go Modules
+Go Main
+Go Packages
+Go Gependency
+Go Multithreading
+	- Print a banner
+	- Play Music
+	- Print a timer
+Go Testing
+Go Compiling
+	- Native
+	- Linux
+	- Windows
+	- Mac
+	- More: https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04
+Listing Platforms
+	- go tool dist list
+	- go tool dist list | grep -Po "(?<=/).*$" | sort | uniq
+	- go tool dist list | grep -Po "^[^/]*" | sort | uniq
+Go Multiple artifacts project
+Go Sleep main thread
+	- https://stackoverflow.com/questions/36419054/go-projects-main-goroutine-sleep-forever
+```
+
