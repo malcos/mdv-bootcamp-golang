@@ -1,5 +1,58 @@
 # Hey ho! Let's Go!
 
+Go is a statically typed, compiled high-level programming language.
+
+It is syntactically similar to C, but also provides memory safety, garbage collection, structural typing, lightweight green threads and CSP-style concurrency.
+
+It is able to compile native executables for different operating systems and hardware platforms.
+
+## Installing
+
+You can either [download and install](https://go.dev/doc/install) Go manually, or use the package manager of your OS.
+
+Windows:
+
+```shell
+choco install golang
+```
+
+Darwin:
+
+```shell
+brew install go
+```
+
+Linux:
+
+```shell
+# C'mon. Use you package manager, as usual.
+```
+
+Verify your installed version:
+
+```shell
+$ go version
+go version go1.22.5 linux/amd64
+```
+
+
+
+## Useful resources and links
+
+- Learning go: https://go.dev/learn/
+  - Interactive tour of Go: https://go.dev/tour
+  - Go by Example: https://gobyexample.com/
+- Documentation: https://go.dev/doc/
+  - Installing: https://go.dev/doc/install
+  - Effective Go: https://go.dev/doc/effective_go
+  - The Standard library: https://pkg.go.dev/std
+- Social contacts and Help: https://go.dev/help
+  - The Go Blog: https://go.dev/blog/
+  - Conferences and Events: https://go.dev/wiki/Conferences
+  - Meetup: https://www.meetup.com/pro/go/
+- Release notes: https://go.dev/doc/devel/release
+- ~~Maven Central~~ Go Packages: https://pkg.go.dev/
+
 ## TOPICS / TODO
 
 The list is incomplete and requires reordering
